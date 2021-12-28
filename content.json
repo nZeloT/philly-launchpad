@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "title": "News",
+      "entries": [
+        {
+          "name": "Heise",
+          "url": "https://heise.de",
+          "favicon": "https://www.heise.de/icons/ho/touch-icons/mstile-144x144.png"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com",
+          "favicon": "https://news.ycombinator.com/y18.gif"
+        },
+        {
+          "name": "Golem",
+          "url": "https://golem.de",
+          "favicon": "https://www.golem.de/apple-touch-icon-114x114.png"
+        },
+
+        {
+          "name": "SZ",
+          "url": "https://sz.de",
+          "favicon": "https://www.sueddeutsche.de/assets/img/apple-touch-icon.png"
+        },
+        {
+          "name": "Zeit",
+          "url": "https://zeit.de",
+          "favicon": "https://img.zeit.de/static/img/zo-icon-win8-144x144.png"
+        },
+        {
+          "name": "Fefes Blog",
+          "url": "https://blog.fefe.de",
+          "favicon": "https://blog.fefe.de/favicon.ico"
+        }
+      ]
+    },
+    {
+      "title": "Development",
+      "entries": [
+        {
+          "name": "Github",
+          "url": "https://github.com",
+          "favicon": "https://github.com/fluidicon.png"
+        },
+        {
+          "name": "crates.io",
+          "url": "https://crates.io",
+          "favicon": "https://crates.io/assets/Cargo-Logo-Small-c39abeb466d747f3be442698662c5260.png"
+        },
+        {
+          "name": "docs.rs",
+          "url": "https://docs.rs/",
+          "favicon": "https://docs.rs/-/static/favicon.ico"
+        },
+        {
+          "name": "CPP Ref",
+          "url": "https://en.cppreference.com",
+          "favicon": "https://en.cppreference.com/favicon.ico"
+        }
+      ]
+    }
+  ]
+}

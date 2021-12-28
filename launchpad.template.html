@@ -1,0 +1,53 @@
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Philly Launchpad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+{{log this}}
+<div class="outer-wrapper ds-outer-wrapper-breakpoint-override newtab-experience">
+    <main>
+        <div class="body-wrapper on">
+            <div class="discovery-stream ds-layout">
+                <div class="ds-column ds-column-12">
+                    <div class="ds-column-grid">
+                        <div>
+                            {{#each categories}}
+                            <section class="collapsible-section top-sites">
+                                <div class="section-top-bar">
+                                    <h3 class="section-title">
+                                        {{title}}
+                                    </h3>
+                                </div>
+                                <div class="section-body">
+                                    <ul class="top-sites-list">
+                                        {{#each entries}}
+                                        <li class="top-site-outer">
+                                            <div class="top-site-inner">
+                                                <a class="top-site-button" href="{{url}}" tabindex="0">
+                                                    <div class="tile" aria-hidden="true">
+                                                        <div class="icon-wrapper" data-fallback="A">
+                                                            <div class="top-site-icon rich-icon"
+                                                                 style="background-image: url({{~#if favicon}}{{~favicon}}{{~else}}'fallback.png'{{~/if}});"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="title">
+                                                        <span dir="auto">{{name}}</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </section>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>

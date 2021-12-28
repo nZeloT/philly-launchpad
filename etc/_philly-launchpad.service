@@ -1,0 +1,17 @@
+[Unit]
+Description=Philly-Launchpad Service
+After=multi-user.target
+
+[Service]
+User=pi
+Type=idle
+WorkingDirectory=/home/pi/philly-launchpad/
+ExecStart=/home/pi/philly-launchpad/target/release/philly-launchpad
+
+Restart=always
+RestartSec=10
+StartLimitBurst=5
+StartLimitInterval=100
+
+[Install]
+WantedBy=multi-user.target
